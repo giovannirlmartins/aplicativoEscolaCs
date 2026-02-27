@@ -21,6 +21,7 @@ public class Program
             Console.WriteLine("2 - Fazer Login");
             // Console.WriteLine("3 - Calcular Média do aluno");
             Console.WriteLine("3 - Fechar o Programa");
+            Console.WriteLine("4 - Listar Professores");
             Console.WriteLine("Digite uma das opções acima: ");
             opcaoMenu = int.Parse(Console.ReadLine()?? "");
 
@@ -29,12 +30,17 @@ public class Program
                 case 1:
                     professorAtual = professorAtual.CadastrarProfessor(professorAtual);
                     listaProfessores.Add(professorAtual);
+                    professorAtual = new Professor();
                     break;
                 case 2:
                     estaLogado = professorAtual.Login(listaProfessores);
                     break;
                 case 3:
                     estaLogado = false;
+                    break;
+
+                case 4:
+                    professorAtual.mostraListaProfessores(listaProfessores);
                     break;
                 default:
                     Console.WriteLine("Digite um número entre 1 e 3.");

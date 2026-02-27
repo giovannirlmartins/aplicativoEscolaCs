@@ -32,6 +32,20 @@ public class Professor
 
     }
 
+    public void mostraListaProfessores(List <Professor> listaProfessores)
+    {
+        int i = 1;
+        foreach (var professor in listaProfessores)
+        {
+            Console.WriteLine($"Nome do professor {i}: {professor.nome}");
+            Console.WriteLine($"Data de nascimento {i}: {professor.dataNascimento}");
+            Console.WriteLine($"Login do professor{i}: {professor.login}");
+            Console.WriteLine($"Senha do professor{i}: {professor.senha}");
+
+            i++;
+        }
+    }
+
     public bool Login(List <Professor> listaProfessores)
     {
         int tentativas = 3;
