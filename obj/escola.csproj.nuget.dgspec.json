@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Giovanni Martins\\Documents\\clone\\aplicativoEscolaCs\\escola.csproj": {}
+    "C:\\Users\\GiovanniRodriguesdeL\\Documents\\cloneGio\\aplicativoEscolaCs\\escola.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Giovanni Martins\\Documents\\clone\\aplicativoEscolaCs\\escola.csproj": {
+    "C:\\Users\\GiovanniRodriguesdeL\\Documents\\cloneGio\\aplicativoEscolaCs\\escola.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Giovanni Martins\\Documents\\clone\\aplicativoEscolaCs\\escola.csproj",
+        "projectUniqueName": "C:\\Users\\GiovanniRodriguesdeL\\Documents\\cloneGio\\aplicativoEscolaCs\\escola.csproj",
         "projectName": "escola",
-        "projectPath": "C:\\Users\\Giovanni Martins\\Documents\\clone\\aplicativoEscolaCs\\escola.csproj",
-        "packagesPath": "C:\\Users\\Giovanni Martins\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Giovanni Martins\\Documents\\clone\\aplicativoEscolaCs\\obj\\",
+        "projectPath": "C:\\Users\\GiovanniRodriguesdeL\\Documents\\cloneGio\\aplicativoEscolaCs\\escola.csproj",
+        "packagesPath": "C:\\Users\\GiovanniRodriguesdeL\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GiovanniRodriguesdeL\\Documents\\cloneGio\\aplicativoEscolaCs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Giovanni Martins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GiovanniRodriguesdeL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

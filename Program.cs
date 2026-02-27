@@ -11,6 +11,8 @@ public class Program
         float nota1, nota2, nota3, media;
         string opcao;     
         bool estaLogado = false;   
+        bool programaFinalizado = false;
+        
         List <Professor> listaProfessores = new List<Professor>();
         Professor professorAtual = new Professor();
         
@@ -21,7 +23,7 @@ public class Program
             Console.WriteLine("2 - Fazer Login");
             // Console.WriteLine("3 - Calcular Média do aluno");
             Console.WriteLine("3 - Fechar o Programa");
-            Console.WriteLine("4 - Listar Professores");
+            // Console.WriteLine("4 - Listar Professores");
             Console.WriteLine("Digite uma das opções acima: ");
             opcaoMenu = int.Parse(Console.ReadLine()?? "");
 
@@ -37,16 +39,17 @@ public class Program
                     break;
                 case 3:
                     estaLogado = false;
+                    programaFinalizado = true;
                     break;
 
-                case 4:
-                    professorAtual.mostraListaProfessores(listaProfessores);
-                    break;
+                // case 4:
+                //     professorAtual.mostraListaProfessores(listaProfessores);
+                //     break;
                 default:
                     Console.WriteLine("Digite um número entre 1 e 3.");
                     break;
             }
-        }while(estaLogado == false);
+        }while(estaLogado == false && programaFinalizado==false);
 
 
         if(estaLogado == true){
@@ -87,7 +90,8 @@ public class Program
             opcao = Console.ReadLine() ?? "";
             }while(opcao=="s" || opcao=="S");
         }
+
+        Console.WriteLine("Programa Finalizado.");        
         
-        Console.WriteLine("Não pode acessar a área do aluno. Faça seu login novamente!");
     }
 }
